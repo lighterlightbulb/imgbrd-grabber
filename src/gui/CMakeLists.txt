@@ -1,4 +1,7 @@
 # General
+set(USE_QSCINTILLA 0)
+set(USE_BREAKPAD 0)
+
 project(gui)
 add_definitions(-DGUI=1)
 if(CMAKE_BUILD_TYPE STREQUAL "Release")
